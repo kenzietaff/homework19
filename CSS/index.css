@@ -1,0 +1,223 @@
+
+  
+  body {
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    overflow: scroll;
+    margin: 0px;
+    background: #FFF8F5; 
+  }
+​  /* wrapper */
+
+
+  /* Navigation */
+
+ #mainNav a {
+    color: #021718 !important; 
+    text-decoration: none;
+    background-color: transparent;
+}
+  .nav-container {
+    background: #fffafa;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    height: 72px;
+    /* margin-top: -65px; keep this removed bc it makes the top weird */
+    z-index: 500;
+    position: relative;
+  }
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .hero-content {
+    width: 100%;
+
+  }
+  
+  .logo {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    color: #021718;
+    background-color:#fffafa;
+  }
+  
+
+  
+
+
+
+  /* Header */
+  
+  .header-container {
+    background: #FFF8F5;    background-repeat: repeat-x; background-repeat: repeat-y;
+    background-position: right;
+    background-size: contain;
+    height: 0%;
+    display: flex;    
+  }
+  html { 
+    background: #FFF8F5 no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  header h1 {
+    font-family: 'Abril Fatface';font-size: 22px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 75px;
+    color: #021718;
+    margin-bottom: 24px;
+  }
+  header h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 75px;
+    color: #021718;
+    margin-bottom: 24px;
+  }
+  header p {
+    font-size: 24px;
+    line-height: 42px;
+    color: #021718;
+    width: 100%;
+    margin-bottom: 48px;
+    overflow-wrap:break-word;
+    padding-right: 80px;
+  }
+  
+  header a {
+    color: #fffffa;
+    font-size: 24px;
+    text-decoration: none;
+  
+    background: #E7A28D;
+    border-radius: 8px;
+    padding: 12px 48px;
+    display: inline-block;
+    transition: 300ms;
+  }
+  
+  header a:hover {
+    transform: translateY(-8px);
+  }
+  
+  
+  /* Hero image */
+  
+  header .hero-image {
+    position: relative;
+  }
+  
+  header .hero-image img {
+    transition: 300ms;
+    position: relative;
+    z-index: 100;
+  }
+  
+  header .hero-image img:hover {
+    transform: rotate(-6deg);
+  }
+  
+  header .hero-image .photo-bg {
+    position: absolute;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    left: 45px;
+    top: 24px;
+  
+    background: #FCE2D5;
+    transform: rotate(-6deg);
+  }
+  
+​
+
+  
+  .container { 
+    background: #fffffa;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    height: 72px;
+    margin-top: -65px;
+    z-index: 500;
+    position: relative;
+  }
+  
+@media only screen and (max-width: 375px) {
+  header h1 {
+    font-family: 'Abril Fatface';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 75px;
+    color: #021718;
+    margin-bottom: 24px;
+    display: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .hero-image {
+    display: none;
+  }
+  .hero-content {
+    width: 100%;
+    text-align: center;
+
+  }
+​.header-container {
+  background: #FFF8F5;    background-repeat: repeat-x; background-repeat: repeat-y;
+  background-position: right;
+  background-size: contain;
+  height: 0%;
+  display: flex;
+  align-items: center;
+  
+}
+ header h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 30px;
+  color: #021718;
+  margin-bottom: 24px;
+  
+}
+
+
+header p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 30px;
+  color: #021718;
+  margin-bottom: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-container {
+  background: #fffffa;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+  height: 72px;
+  width: 100vw;
+  z-index: 500;
+  position: relative;
+}
+
+nav {
+  padding: 0 5%;
+}
+
+
+}
