@@ -12,7 +12,7 @@
 
   /* Navigation */
 
- #mainNav a {
+ # a {
     color: #021718 !important; 
     text-decoration: none;
     background-color: transparent;
@@ -40,7 +40,7 @@
     font-weight: 800;
     font-size: 48px;
     color: #021718;
-    background-color:#fffafa;
+    background-color:#FCE2D5;
   }
   
 
